@@ -180,15 +180,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9ce78ac5877c15c4794b809b35371da1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mapWidth: 37
-  mapHeight: 37
-  noiseScale: 0.26
+  drawMode: 1
+  mapWidth: 82
+  mapHeight: 82
+  noiseScale: 1.76
   autoUpdate: 1
-  octaves: 31
+  octaves: 49
   persistance: 0.74
-  lacunarity: 3.88
-  seed: 50
+  lacunarity: 6.07
+  seed: 125
   offset: {x: 0, y: 0}
+  regions:
+  - name: grass
+    height: 1
+    colour: {r: 0.1254895, g: 0.5660378, b: 0.25480288, a: 0}
+  - name: water
+    height: 1
+    colour: {r: 0.8490566, g: 0.084104665, b: 0.084104665, a: 0}
+  - name: water
+    height: 1
+    colour: {r: 0.18623178, g: 0.31438184, b: 0.8773585, a: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -441,7 +452,7 @@ Transform:
   m_GameObject: {fileID: 1500025559}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 37, y: 1, z: 50}
+  m_LocalScale: {x: 82, y: 1, z: 82}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3

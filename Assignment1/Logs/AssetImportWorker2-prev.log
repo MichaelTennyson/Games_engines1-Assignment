@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker2
 -projectPath
-C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment
+C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-52354
-Successfully changed project path to: C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment
-C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment
+62653
+Successfully changed project path to: C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
+C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.74 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 49.85 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment/Assets
+[Subsystems] Discovering subsystems at path C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,5 +35,5 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56872
 Begin MonoManager ReloadAssembly
