@@ -6,8 +6,8 @@ public class mapGenerator : MonoBehaviour
 {
     public enum DrawMode{NoiseMap, ColourMap, Mesh}
     public DrawMode drawMode;
-    public int mapWidth;
-    public int mapHeight;
+    public int mapWidth;// map width variable that sets the width of the map in unity
+    public int mapHeight;// map height variable that sets the width of the map in unity
     public float noiseScale;
 
     public bool autoUpdate;
@@ -20,6 +20,7 @@ public class mapGenerator : MonoBehaviour
     public int seed;
     public Vector2 offset;
     public TerrainType[] regions;
+    public float meshHeightMultiplier;
 
 
     public void generateMap()
@@ -55,7 +56,7 @@ public class mapGenerator : MonoBehaviour
         }
         else if(drawMode == DrawMode.Mesh)
         {
-            display.DrawMesh(MeshGenerator.GenerateTerrainMesh(noiseMap), TextureGenerator.TextureFromColourMap(colourMap, mapWidth, mapHeight));
+            display.DrawMesh(MeshGenerator.GenerateTerrainMesh(noiseMap, meshHeightMultiplier), TextureGenerator.TextureFromColourMap(colourMap, mapWidth, mapHeight));
         }
     }
 
