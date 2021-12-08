@@ -15,11 +15,11 @@ C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignm
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59180
+51785
 Successfully changed project path to: C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
 C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 48.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 52.21 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003017 seconds.
+Registered in 0.002908 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 48.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 55.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.598 seconds
+- Completed reload, in  2.558 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1598ms)
-		BeginReloadAssembly (79ms)
+	ReloadAssembly (2559ms)
+		BeginReloadAssembly (108ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (608ms)
-			LoadAssemblies (75ms)
+		EndReloadAssembly (1067ms)
+			LoadAssemblies (104ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (543ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (49ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (55ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (331ms)
+				ProcessInitializeOnLoadMethodAttributes (111ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004248 seconds.
+Registered in 0.012598 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.669 seconds
+- Completed reload, in  1.871 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1670ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (1872ms)
+		BeginReloadAssembly (210ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1358ms)
-			LoadAssemblies (124ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1572ms)
+			LoadAssemblies (501ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (580ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (454ms)
+			SetupTypeCache (409ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (455ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (301ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (313ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 79.4 MB.
-System memory in use after: 79.5 MB.
+System memory in use before: 79.5 MB.
+System memory in use after: 79.6 MB.
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1856.
-Total: 3.431500 ms (FindLiveObjects: 0.163800 ms CreateObjectMapping: 0.069300 ms MarkObjects: 3.105600 ms  DeleteObjects: 0.091200 ms)
+Total: 3.660500 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.067900 ms MarkObjects: 3.326900 ms  DeleteObjects: 0.100300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,360 +131,136 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/NaturalTilingTextures/GrandCanyonCliff_01
-  artifactKey: Guid(5574bb93d465be2489c87043c91193dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/GrandCanyonCliff_01 using Guid(5574bb93d465be2489c87043c91193dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353543e14aa3a436ca8d382af38ff58f') in 0.012645 seconds 
-  Import took 0.035422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 11.225905 seconds.
-  path: Assets/materials/mesh material.mat
-  artifactKey: Guid(d427f087ce60b3b4591f16c80bea53c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/materials/mesh material.mat using Guid(d427f087ce60b3b4591f16c80bea53c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dcb566e47cb6fc2e0e8c6355a32663') in 0.385665 seconds 
-  Import took 0.403809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.436396 seconds.
-  path: Assets/NaturalTilingTextures/Metamorphic/NTT_Metamorphic.mat
-  artifactKey: Guid(42ddd54cc55480242a95253f65d2ef0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Metamorphic/NTT_Metamorphic.mat using Guid(42ddd54cc55480242a95253f65d2ef0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb66caa50e9acbce5373be4d33f3e93') in 0.497581 seconds 
-  Import took 0.538888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_H.png
-  artifactKey: Guid(54b094a454b95f94dbcd39db5ac6e8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_H.png using Guid(54b094a454b95f94dbcd39db5ac6e8dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e43505d947f999a29bbab5b6ccfa06f0') in 0.276888 seconds 
-  Import took 0.298093 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_AO.png
-  artifactKey: Guid(4f455b4e52a981245a30881b40fb2528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_AO.png using Guid(4f455b4e52a981245a30881b40fb2528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1b85b28c9e926fd58a6d92acb3ac2a') in 0.041644 seconds 
-  Import took 0.052581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_N.png
-  artifactKey: Guid(049a3694fe90fb84786f62ed8308305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_N.png using Guid(049a3694fe90fb84786f62ed8308305e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c9aa0ce260aabf15cad86982e68f30') in 0.032072 seconds 
-  Import took 0.067693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_BC.png
-  artifactKey: Guid(4a86ac592e8333748a82fb3f3bdb5275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Metamorphic/T_Metamorphic_BC.png using Guid(4a86ac592e8333748a82fb3f3bdb5275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bae26917f3fdbf9bae1232daadc3fa8') in 0.034825 seconds 
-  Import took 0.059109 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 50.141211 seconds.
-  path: Assets/NaturalTilingTextures/BlackWhiteGranite/NTT_BlackWhiteGranite.mat
-  artifactKey: Guid(9381cb9e21608134d8bf909b95ed6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/BlackWhiteGranite/NTT_BlackWhiteGranite.mat using Guid(9381cb9e21608134d8bf909b95ed6857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c31c4426cf899539caa84837f8415ad') in 0.468431 seconds 
-  Import took 0.502856 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_H.png
-  artifactKey: Guid(aafe34d94aeaae3479ccf6644bebac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_H.png using Guid(aafe34d94aeaae3479ccf6644bebac22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f42912884876e1e8b35f54a0cb6c25bd') in 0.034085 seconds 
-  Import took 0.058073 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_BC.png
-  artifactKey: Guid(4085de2724f9cb641bfff615e9e0df5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_BC.png using Guid(4085de2724f9cb641bfff615e9e0df5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badecc84138f3e71cf83bc1d78e5e354') in 0.041804 seconds 
-  Import took 0.077633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/NaturalTilingTextures/External/ShaderForge_NTT_Triplanar.mat
-  artifactKey: Guid(224b6d9bc1b93634ab0d08b8b9d3eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/External/ShaderForge_NTT_Triplanar.mat using Guid(224b6d9bc1b93634ab0d08b8b9d3eb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b84cc10a7a6053f0495c6cc24ee634f') in 0.804253 seconds 
-  Import took 0.822867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_AO.png
-  artifactKey: Guid(a73ac72f096e0d24e9f6cf1ec9dc8163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_AO.png using Guid(a73ac72f096e0d24e9f6cf1ec9dc8163) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b828ecd26a498a1fc5a4b7faaca7cc96') in 0.027468 seconds 
-  Import took 0.048651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_N.png
-  artifactKey: Guid(9ba25906e3a83f540ab334a76fd6262e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/BlackWhiteGranite/T_BlackWhiteGranite_N.png using Guid(9ba25906e3a83f540ab334a76fd6262e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a35bfb2b8de76f23e5d26794182e91') in 0.096861 seconds 
-  Import took 0.122867 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.989677 seconds.
-  path: Assets/NaturalTilingTextures/AdamsCanyonGranite/NTT_AdamsCanyonGranite.mat
-  artifactKey: Guid(91d54ac0f8397dd40b39c9e62622b74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/AdamsCanyonGranite/NTT_AdamsCanyonGranite.mat using Guid(91d54ac0f8397dd40b39c9e62622b74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffdca2ef1e5d76ee124e2b4981bb92b4') in 0.669294 seconds 
-  Import took 0.692265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001378 seconds.
-  path: Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_N.png
-  artifactKey: Guid(1666b853667ce894db70b67e67e74d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_N.png using Guid(1666b853667ce894db70b67e67e74d0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5982e69bc369f497732391461219d02b') in 0.085353 seconds 
-  Import took 0.115574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036137 seconds.
-  path: Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_BC.png
-  artifactKey: Guid(5254a824e65d2334eac4dd4594847706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_BC.png using Guid(5254a824e65d2334eac4dd4594847706) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a64373455183f069abf538af18e36c') in 0.146012 seconds 
-  Import took 0.168817 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_AO.png
-  artifactKey: Guid(753d49f37aa7a744498e21ee065bb671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_AO.png using Guid(753d49f37aa7a744498e21ee065bb671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad06a5bb28ed665c37d0bdf9ec562f40') in 0.074355 seconds 
-  Import took 0.092423 seconds .
+  path: Assets/NaturalTilingTextures/WasatchQuartzite_02/NTT_WasatchQuartzite_02.mat
+  artifactKey: Guid(fed49b32556652442acaa9634ea371a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaturalTilingTextures/WasatchQuartzite_02/NTT_WasatchQuartzite_02.mat using Guid(fed49b32556652442acaa9634ea371a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34996dff1293e78203230c101e214b47') in 0.800466 seconds 
+  Import took 0.813420 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000256 seconds.
-  path: Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_H.png
-  artifactKey: Guid(c8e6185682e81df4ea90c31575a753e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/AdamsCanyonGranite/T_AdamsCanyonGranite_H.png using Guid(c8e6185682e81df4ea90c31575a753e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8b4fc920d5f391d364163fa1739c0c') in 0.144418 seconds 
-  Import took 0.157134 seconds .
+  path: Assets/NaturalTilingTextures/GrandCanyonCliff_01/NTT_GrandCanyonCliff.mat
+  artifactKey: Guid(a20e83dc3b6fe67498e62a83907769c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NaturalTilingTextures/GrandCanyonCliff_01/NTT_GrandCanyonCliff.mat using Guid(a20e83dc3b6fe67498e62a83907769c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88db3c04f1a6bc360c6bc74594362ebd') in 0.212957 seconds 
+  Import took 0.236219 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 163.506158 seconds.
-  path: Assets/NaturalTilingTextures/CraterLakeRed/NTT_CraterLakeRed.mat
-  artifactKey: Guid(b5e59834a81f7d742936e27c6a08b9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/CraterLakeRed/NTT_CraterLakeRed.mat using Guid(b5e59834a81f7d742936e27c6a08b9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b6f819d0084981263134e87012b396d') in 0.378686 seconds 
-  Import took 0.401938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/NaturalTilingTextures/MixedVolcanic/NTT_MixedVolcanic.mat
-  artifactKey: Guid(18d7a8974d1e35b4795d7a4fc2eb60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/MixedVolcanic/NTT_MixedVolcanic.mat using Guid(18d7a8974d1e35b4795d7a4fc2eb60a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82ce613759cb65b6972c0003fa931cce') in 0.807323 seconds 
-  Import took 0.829369 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/NaturalTilingTextures/GraniteMica/NTT_GraniteMica.mat
-  artifactKey: Guid(0b3667c4d0b914e428760191dda5d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/GraniteMica/NTT_GraniteMica.mat using Guid(0b3667c4d0b914e428760191dda5d873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b66232ebe8067fa7554d353b927810') in 0.535784 seconds 
-  Import took 0.544138 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/NaturalTilingTextures/ErodedMetamorphic/NTT_ErodedMetamorphic.mat
-  artifactKey: Guid(0ac6b050958433b488a2f45dfef880af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ErodedMetamorphic/NTT_ErodedMetamorphic.mat using Guid(0ac6b050958433b488a2f45dfef880af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decd2ab22f733a33950cfc8e59d2c03a') in 0.775674 seconds 
-  Import took 0.800749 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/NaturalTilingTextures/RockyMountainGranite_01/NTT_RockyMountainGranite_01.mat
-  artifactKey: Guid(0558954a320e99048bf47da64f301cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/RockyMountainGranite_01/NTT_RockyMountainGranite_01.mat using Guid(0558954a320e99048bf47da64f301cc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b0b1e18d76c09103e0f5bd25b49359') in 0.561025 seconds 
-  Import took 0.580872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/NaturalTilingTextures/PinkSands/NTT_PinkSands.mat
-  artifactKey: Guid(1980981ba4f47d548a89afb479eb6f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/PinkSands/NTT_PinkSands.mat using Guid(1980981ba4f47d548a89afb479eb6f86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b2b011ed4221128945c38d53ca681d') in 0.580741 seconds 
-  Import took 0.614757 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/NaturalTilingTextures/RockyMountainGranite_04/NTT_RockyMountainGranite_04.mat
-  artifactKey: Guid(59db88cbe250a884f9809f5eda8d80c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/RockyMountainGranite_04/NTT_RockyMountainGranite_04.mat using Guid(59db88cbe250a884f9809f5eda8d80c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9665a62e6cf22be1041cb4b8fbec49b1') in 0.569465 seconds 
-  Import took 0.591193 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/NaturalTilingTextures/WasatchQuartzite_03/NTT_WasatchQuartzite_03.mat
-  artifactKey: Guid(e8ad42bb4f7dcb74791fa4e5fdb2eeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/WasatchQuartzite_03/NTT_WasatchQuartzite_03.mat using Guid(e8ad42bb4f7dcb74791fa4e5fdb2eeef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '857130fce975569404b6e0179c8a5374') in 0.476167 seconds 
-  Import took 0.505044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/NaturalTilingTextures/WindCavesGranite/NTT_WindCavesGranite_01.mat
-  artifactKey: Guid(5893b00e1dc57d149ad348046cc53d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/WindCavesGranite/NTT_WindCavesGranite_01.mat using Guid(5893b00e1dc57d149ad348046cc53d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fe25de03268ad9dcc0b9aaef97ce925') in 0.503698 seconds 
-  Import took 0.543490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/NaturalTilingTextures/Yellowstone_Igneous/NTT_YellowStone_Igneous.mat
-  artifactKey: Guid(f0ead930c6c391d408bc8c0ad827c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Yellowstone_Igneous/NTT_YellowStone_Igneous.mat using Guid(f0ead930c6c391d408bc8c0ad827c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb63d7619a21877cc4a8455fe291513') in 1.091452 seconds 
-  Import took 1.109738 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/NaturalTilingTextures/OrangeLichen/NTT_OrangeLichen.mat
-  artifactKey: Guid(4ce35c9bc4026a547808c565d01da4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/OrangeLichen/NTT_OrangeLichen.mat using Guid(4ce35c9bc4026a547808c565d01da4f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300b4d59c06e1a003037d45bce159885') in 0.504936 seconds 
-  Import took 0.536165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/NaturalTilingTextures/WasatchGranite_02/NTT_WasatchGranite_02.mat
-  artifactKey: Guid(1b8f6fe035cda364a90a9cba82e2c07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/WasatchGranite_02/NTT_WasatchGranite_02.mat using Guid(1b8f6fe035cda364a90a9cba82e2c07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c39b928e90d7d14dae5bfa80843c7ea7') in 0.421909 seconds 
-  Import took 0.438549 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/NaturalTilingTextures/GrandCanyonGround_01/NTT_GrandCanyonGround.mat
-  artifactKey: Guid(d6a744277296f1a4582d96ee5f9c1846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/GrandCanyonGround_01/NTT_GrandCanyonGround.mat using Guid(d6a744277296f1a4582d96ee5f9c1846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca56a7879c74d7c45f0722ec77d73b7e') in 0.435736 seconds 
-  Import took 0.459635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/NaturalTilingTextures/OrangeLichen_02/NTT_OrangeLichen_02.mat
-  artifactKey: Guid(b3268e9d0c5c02542860a862e236461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/OrangeLichen_02/NTT_OrangeLichen_02.mat using Guid(b3268e9d0c5c02542860a862e236461d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e41096af14e57d09aa6c1a4f2ebb419') in 0.403430 seconds 
-  Import took 0.427881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/NaturalTilingTextures/RockyMountainGranite_03/NTT_RockyMountainGranite_03.mat
-  artifactKey: Guid(bb7a6bfc6d2a009449ffcdc277721194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/RockyMountainGranite_03/NTT_RockyMountainGranite_03.mat using Guid(bb7a6bfc6d2a009449ffcdc277721194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01eecec0c6769a3e9ac51861c46872db') in 0.590432 seconds 
-  Import took 0.601298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/NaturalTilingTextures/WasatchQuartzite_01/NTT_WasatchQuartzite_01.mat
-  artifactKey: Guid(cf8f6c7e8edb9da4d83c41dda6161bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/WasatchQuartzite_01/NTT_WasatchQuartzite_01.mat using Guid(cf8f6c7e8edb9da4d83c41dda6161bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f8792bf7aa8086bbb928403475b73f') in 0.537891 seconds 
-  Import took 0.560767 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/NaturalTilingTextures/RedGranite02/NTT_RedGranite_02.mat
-  artifactKey: Guid(f624e53afb2e67c48a17f6d7a9a6d612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/RedGranite02/NTT_RedGranite_02.mat using Guid(f624e53afb2e67c48a17f6d7a9a6d612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d9beeaba88e624d46e2f42e0ed799a') in 0.437368 seconds 
-  Import took 0.440577 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/NaturalTilingTextures/PorousGranite/NTT_PorousGranite.mat
-  artifactKey: Guid(8831cf09d86d5c94594e895c7bd50f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/PorousGranite/NTT_PorousGranite.mat using Guid(8831cf09d86d5c94594e895c7bd50f85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '384dc8bec4f1560cf6eb1d2a4ef90a8b') in 0.503851 seconds 
-  Import took 0.518294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/NaturalTilingTextures/RedGranite/NTT_RedGranite.mat
-  artifactKey: Guid(00f187d9994a10a44b0265d084dc8195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/RedGranite/NTT_RedGranite.mat using Guid(00f187d9994a10a44b0265d084dc8195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4a91bd1a008048eb7f508761e587f45') in 0.626431 seconds 
-  Import took 0.635925 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/NaturalTilingTextures/Yellowstone_Pebbles/NTT_YellowStone_Pebbles.mat
-  artifactKey: Guid(684bbe84cbc5d1046a009a378ee563dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Yellowstone_Pebbles/NTT_YellowStone_Pebbles.mat using Guid(684bbe84cbc5d1046a009a378ee563dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52a86a1904926acbd07b6b30be7762c') in 0.482779 seconds 
-  Import took 0.493381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 92.576620 seconds.
-  path: Assets/Scripts/mapGenerator.cs
-  artifactKey: Guid(9ce78ac5877c15c4794b809b35371da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/mapGenerator.cs using Guid(9ce78ac5877c15c4794b809b35371da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597088e5452e50382e2f99572f362c21') in 0.305253 seconds 
-  Import took 0.308897 seconds .
+  Time since last request: 94.691873 seconds.
+  path: Assets/Scripts/EndlessTerrain.cs
+  artifactKey: Guid(764d4bc274c8d194a89f22b5e6c5e6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTerrain.cs using Guid(764d4bc274c8d194a89f22b5e6c5e6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '900213b67ad596bc772c74b9eea1c23e') in 0.014965 seconds 
+  Import took 0.035247 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.005124 seconds.
+Registered in 0.003795 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.424 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1425ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (1157ms)
+			LoadAssemblies (127ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (383ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (442ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (303ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.6 MB.
+System memory in use after: 82.7 MB.
+
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 3.849100 ms (FindLiveObjects: 0.199000 ms CreateObjectMapping: 0.102900 ms MarkObjects: 3.525000 ms  DeleteObjects: 0.020300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1338.291751 seconds.
+  path: Assets/Scripts/EndlessTerrain.cs
+  artifactKey: Guid(764d4bc274c8d194a89f22b5e6c5e6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EndlessTerrain.cs using Guid(764d4bc274c8d194a89f22b5e6c5e6bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d69fd7030a5ee782c23aed93d2fbeda') in 0.017678 seconds 
+  Import took 0.024074 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005291 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.813 seconds
+- Completed reload, in  1.974 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1815ms)
-		BeginReloadAssembly (367ms)
+	ReloadAssembly (1975ms)
+		BeginReloadAssembly (293ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (20ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (193ms)
-		EndReloadAssembly (1353ms)
-			LoadAssemblies (311ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1451ms)
+			LoadAssemblies (238ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (417ms)
+			SetupTypeCache (512ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (418ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (610ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (287ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (466ms)
 				ProcessInitializeOnLoadMethodAttributes (6ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1398 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1399 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 82.6 MB.
 System memory in use after: 82.7 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 1901.
-Total: 3.618500 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.068300 ms MarkObjects: 3.346700 ms  DeleteObjects: 0.026500 ms)
+Total: 3.838500 ms (FindLiveObjects: 0.180400 ms CreateObjectMapping: 0.069100 ms MarkObjects: 3.565600 ms  DeleteObjects: 0.021500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -496,180 +272,4 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 2268.730758 seconds.
-  path: Assets/Scripts/mapGenerator.cs
-  artifactKey: Guid(9ce78ac5877c15c4794b809b35371da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/mapGenerator.cs using Guid(9ce78ac5877c15c4794b809b35371da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e225a54b12b288689b80328c3981672') in 0.014745 seconds 
-  Import took 0.027955 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.387410 seconds.
-  path: Assets/NaturalTilingTextures/Yellowstone_PebblesNeedles/NTT_YellowStone_PebblesNeedles.mat
-  artifactKey: Guid(438d8a57fc2096e44be8b0c003876402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Yellowstone_PebblesNeedles/NTT_YellowStone_PebblesNeedles.mat using Guid(438d8a57fc2096e44be8b0c003876402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b22ae8859f06e68f904e05ad9ee3e9') in 0.524000 seconds 
-  Import took 0.605433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/NaturalTilingTextures/ZionRock_05/NTT_ZionRock_05.mat
-  artifactKey: Guid(a978bfb54ba461b4d818bdb8fea38871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionRock_05/NTT_ZionRock_05.mat using Guid(a978bfb54ba461b4d818bdb8fea38871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82512af5e9341c74b2cc59608a123f4c') in 0.481522 seconds 
-  Import took 0.493419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/NaturalTilingTextures/ZionRock_01/NTT_ZionRock_01.mat
-  artifactKey: Guid(0edfffec748ce3744ad3e74b1a9de5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionRock_01/NTT_ZionRock_01.mat using Guid(0edfffec748ce3744ad3e74b1a9de5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c7aaacce7736b2c566e1fbfe690e65') in 0.799067 seconds 
-  Import took 0.817035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/NaturalTilingTextures/Yellowstone_Porous/NTT_YellowStone_Porous.mat
-  artifactKey: Guid(36517c984be1c7f479bdf69b9ffc9f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Yellowstone_Porous/NTT_YellowStone_Porous.mat using Guid(36517c984be1c7f479bdf69b9ffc9f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27d44008f423b645393ac40c953c0beb') in 0.478485 seconds 
-  Import took 0.500200 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/NaturalTilingTextures/Yellowstone_Red02/NTT_YellowStone_Red02.mat
-  artifactKey: Guid(d4798b9869bbaf146a8dc1720f215f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Yellowstone_Red02/NTT_YellowStone_Red02.mat using Guid(d4798b9869bbaf146a8dc1720f215f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '804fca87e6cbcb7a65bba5e38e206a16') in 0.415405 seconds 
-  Import took 0.418913 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/NaturalTilingTextures/ZionRock_06/NTT_ZionRock_06.mat
-  artifactKey: Guid(8228b214b3eacb34c811a1c2c2ac9e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionRock_06/NTT_ZionRock_06.mat using Guid(8228b214b3eacb34c811a1c2c2ac9e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ee36151523cc61ab6bac73c65c300ec') in 0.426367 seconds 
-  Import took 0.442505 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000385 seconds.
-  path: Assets/NaturalTilingTextures/ZionRock_07/NTT_ZionRock_07.mat
-  artifactKey: Guid(42c6760b3669cc8459dc07383f1c39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionRock_07/NTT_ZionRock_07.mat using Guid(42c6760b3669cc8459dc07383f1c39ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b9f0b2800e01be3543a1b91bd37c82') in 0.582318 seconds 
-  Import took 0.604991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/NaturalTilingTextures/ZionRock_02/NTT_ZionRock_02.mat
-  artifactKey: Guid(c1c57fb466f5d7b4b80eccd764ca2082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionRock_02/NTT_ZionRock_02.mat using Guid(c1c57fb466f5d7b4b80eccd764ca2082) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5254d209cecd847ec4cefafd93601483') in 0.410305 seconds 
-  Import took 0.445180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/NaturalTilingTextures/ZionGround_02/NTT_ZionGround_02.mat
-  artifactKey: Guid(23477c6d40b387f468e8d66bd5ff6827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionGround_02/NTT_ZionGround_02.mat using Guid(23477c6d40b387f468e8d66bd5ff6827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbab278fdd017ad735a49ab6a03ec5e') in 0.474349 seconds 
-  Import took 0.477155 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Mountain Terrain/Trees/materials/polySurface72Mat.mat
-  artifactKey: Guid(9e04a5e1e116a9e4f84882272bd44114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/Trees/materials/polySurface72Mat.mat using Guid(9e04a5e1e116a9e4f84882272bd44114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2439de5cb292121ed209f8e36c72f0b8') in 0.621600 seconds 
-  Import took 0.636544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Mountain Terrain/Trees/materials/polySurface1Mat.mat
-  artifactKey: Guid(e154af65a99795f47ba7cec0f43007d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/Trees/materials/polySurface1Mat.mat using Guid(e154af65a99795f47ba7cec0f43007d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc1f6e513288346a9e940913ee516a03') in 0.178820 seconds 
-  Import took 0.181728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/NaturalTilingTextures/ZionGround_01/NTT_ZionGround_01.mat
-  artifactKey: Guid(475296feee0a66c47bc87ecfc1980e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionGround_01/NTT_ZionGround_01.mat using Guid(475296feee0a66c47bc87ecfc1980e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd58ebbd20cb83d6ce14d526e9372e426') in 0.437525 seconds 
-  Import took 0.458980 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Mountain Terrain/stone_03/stone_3.mat
-  artifactKey: Guid(13ea7ad49dfbacf47b47d7d326b5a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/stone_03/stone_3.mat using Guid(13ea7ad49dfbacf47b47d7d326b5a40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5251bc1915835f99f310179ae6d38169') in 0.616692 seconds 
-  Import took 0.620483 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000076 seconds.
-  path: Assets/NaturalTilingTextures/Yellowstone_Red01/NTT_YellowStone_Red01.mat
-  artifactKey: Guid(d6a00022ef212394bb2f3a9f3820db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/Yellowstone_Red01/NTT_YellowStone_Red01.mat using Guid(d6a00022ef212394bb2f3a9f3820db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0228d874bb379e303133c24a9eab305') in 0.609896 seconds 
-  Import took 0.630790 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/Mountain Terrain/Misc/Materials/Terrain_01_low2_MeshMat.mat
-  artifactKey: Guid(b979c24ba803b6246bc95f7ed6b6a029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/Misc/Materials/Terrain_01_low2_MeshMat.mat using Guid(b979c24ba803b6246bc95f7ed6b6a029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689c0678e9663ecb2d3164d617425a1e') in 0.072144 seconds 
-  Import took 0.074935 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/NaturalTilingTextures/ZionRock_04/NTT_ZionRock_04.mat
-  artifactKey: Guid(b16777481621c67439f987bf17062ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionRock_04/NTT_ZionRock_04.mat using Guid(b16777481621c67439f987bf17062ad4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42b7ecfb6ad1a7de891a69fe9af4e23a') in 0.473908 seconds 
-  Import took 0.506914 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/NaturalTilingTextures/ZionRock_03/NTT_ZionRock_03.mat
-  artifactKey: Guid(ddcf518aff63967499a03a6ca0038d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NaturalTilingTextures/ZionRock_03/NTT_ZionRock_03.mat using Guid(ddcf518aff63967499a03a6ca0038d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3103aa3c8c8a3b574b4b80ffc31256a4') in 0.475120 seconds 
-  Import took 0.492071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.456531 seconds.
-  path: Assets/Mountain Terrain/Trees/acacia1_2.obj
-  artifactKey: Guid(0240d8417b13dd648a4709b9169abdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/Trees/acacia1_2.obj using Guid(0240d8417b13dd648a4709b9169abdfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114578a40a208ab0dbe4ae5784a4f560') in 0.812639 seconds 
-  Import took 0.822406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Mountain Terrain/Misc/Materials/defaultMat.mat
-  artifactKey: Guid(708b35422da1b404eab9d6d1fbd5e45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/Misc/Materials/defaultMat.mat using Guid(708b35422da1b404eab9d6d1fbd5e45a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb7e066c4f02b8be78dd72e12d85c8ff') in 0.178237 seconds 
-  Import took 0.199654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Mountain Terrain/Misc/Stone_03_low.obj
-  artifactKey: Guid(f091ed37a079fb94daa9d7045be0a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/Misc/Stone_03_low.obj using Guid(f091ed37a079fb94daa9d7045be0a9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48d53393c375bdfa6384f999e254b5a') in 0.130089 seconds 
-  Import took 0.164588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Mountain Terrain/Misc/Terrain_01_low2.obj
-  artifactKey: Guid(dab2c1b588eef2344b03658ce566d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Mountain Terrain/Misc/Terrain_01_low2.obj using Guid(dab2c1b588eef2344b03658ce566d079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70fa4fa84268d9eb0a1f3abb4bfe1f29') in 0.067632 seconds 
-  Import took 0.088934 seconds .
-
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

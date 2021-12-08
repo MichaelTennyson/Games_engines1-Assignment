@@ -183,7 +183,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drawMode: 2
-  levelOfDetail: 3
+  levelOfDetail: 1
   noiseScale: 3.9
   autoUpdate: 1
   octaves: 69
@@ -191,19 +191,7 @@ MonoBehaviour:
   lacunarity: 7.27
   seed: 125
   offset: {x: 0, y: 0}
-  regions:
-  - name: 
-    height: 6
-    colour: {r: 0.9433962, g: 0.9211463, b: 0.9211463, a: 0.043137256}
-  - name: 
-    height: 2
-    colour: {r: 0.14150941, g: 0.14150941, b: 0.012682444, a: 0.043137256}
-  - name: 
-    height: 1
-    colour: {r: 0.14150941, g: 0.14150941, b: 0.6156863, a: 0.043137256}
-  - name: 
-    height: 1
-    colour: {r: 0.14150941, g: 0.14150941, b: 0.6156863, a: 0.043137256}
+  regions: []
   meshHeightMultiplier: 1.54
   meshHeightCurve:
     serializedVersion: 2
@@ -211,17 +199,17 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 0
       value: 0
-      inSlope: 0.9510587
-      outSlope: 0.9510587
+      inSlope: 0.22052646
+      outSlope: 0.22052646
       tangentMode: 34
       weightedMode: 0
       inWeight: 0
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 0.8208313
-      value: 0.7806587
-      inSlope: 0.9510587
-      outSlope: 0.9510587
+      time: 0.8515977
+      value: 0.18779983
+      inSlope: 0.22052646
+      outSlope: 0.22052646
       tangentMode: 34
       weightedMode: 0
       inWeight: 0.33333334
