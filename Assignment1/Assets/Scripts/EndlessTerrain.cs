@@ -8,6 +8,7 @@ public class EndlessTerrain : MonoBehaviour
 {
     public const float maxViewDst = 450;
     public Transform viewer;
+    public Material mapMaterial;
 
     public static Vector2 viewPosition;
     int chunkSize;
@@ -60,12 +61,10 @@ public class EndlessTerrain : MonoBehaviour
                     {
                         terrainChunksVisibleLastUpdate.Add(terrainChunkDictionary[viewChunkCoord]);
                     }
-
-
                 }
                 else
                 {
-                    terrainChunkDictionary.Add(viewChunkCoord, new TerrainChunk(viewChunkCoord, chunkSize, transform));
+                    terrainChunkDictionary.Add(viewChunkCoord, new TerrainChunk(viewChunkCoord, chunkSize, transform, mapMaterial));
                 }
             }
         }
@@ -77,15 +76,22 @@ public class EndlessTerrain : MonoBehaviour
         Vector2 position;
         Bounds bounds;
 
-        public TerrainChunk(Vector2 coord, int size, Transform parent)
+
+        MeshRenderer meshRenderer;
+        MeshFilter meshFilter;
+
+        public TerrainChunk(Vector2 coord, int size, Transform parent, Material material)
         {
             position = coord * size;
             Vector3 positionV3 = new Vector3(position.x, 0, position.y);
             Bounds bounds = new Bounds(position, Vector2.one * size);
-            meshObject = GameObject.CreatePrimitive(PrimitiveType.Plane);
+            meshObject = new GameObject("Terrain Chunk");
+            meshRenderer = meshObject.AddComponent<MeshRenderer>();
+            meshFilter = meshObject.AddComponent<MeshFilter>();
             meshObject.transform.position = positionV3;
             meshObject.transform.parent = parent;
-            meshObject.transform.localScale = Vector3.one * size /10f;
+            meshRenderer.material = material;
+       
             SetVisible(false);
 
             mapGenerator.RequestMapData(onMapDataRecieved);
@@ -94,8 +100,14 @@ public class EndlessTerrain : MonoBehaviour
 
         void onMapDataRecieved(MapData mapData)
         {
-            print("map data Recieved");
+            mapGenerator.RequestMeshData(mapData, OnMeshDataRecieved);
+                
 
+        }
+
+        void OnMeshDataRecieved(MeshData meshData)
+        {
+            meshFilter.mesh = meshData.createMesh();
         }
 
         public void UpdateTerrainChunk()
