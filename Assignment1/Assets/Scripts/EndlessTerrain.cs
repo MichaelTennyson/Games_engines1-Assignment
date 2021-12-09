@@ -12,6 +12,7 @@ public class EndlessTerrain : MonoBehaviour
     public static Vector2 viewPosition;
     int chunkSize;
     int chunksVisibleInViewDst;
+    static mapGenerator mapGenerator;
 
     Dictionary<Vector2, TerrainChunk> terrainChunkDictionary = new Dictionary<Vector2, TerrainChunk>();
     //list varibale that stores a list of the past terrainChunk values
@@ -19,6 +20,7 @@ public class EndlessTerrain : MonoBehaviour
 
      void Start()
     {
+        mapGenerator = FindObjectOfType<mapGenerator>();
         chunkSize = mapGenerator.mapChunkSize - 1;
         chunksVisibleInViewDst = Mathf.RoundToInt(maxViewDst / chunkSize);
     }
@@ -85,6 +87,14 @@ public class EndlessTerrain : MonoBehaviour
             meshObject.transform.parent = parent;
             meshObject.transform.localScale = Vector3.one * size /10f;
             SetVisible(false);
+
+            mapGenerator.RequestMapData(onMapDataRecieved);
+
+        }
+
+        void onMapDataRecieved(MapData mapData)
+        {
+            print("map data Recieved");
 
         }
 

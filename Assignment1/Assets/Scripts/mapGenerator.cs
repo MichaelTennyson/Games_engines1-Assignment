@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
+using System.Threading;
+
 
 public class mapGenerator : MonoBehaviour
 {
@@ -25,6 +28,8 @@ public class mapGenerator : MonoBehaviour
     public float meshHeightMultiplier;
     public AnimationCurve meshHeightCurve;
 
+    Queue<MapThreadInfo<MapData>> mapDataThreadInfoQueue = new Queue<MapThreadInfo<MapData>>(); 
+
     public void DrawMapEditor() 
     {
         MapData mapData = generateMapData();
@@ -36,14 +41,50 @@ public class mapGenerator : MonoBehaviour
         }
         else if (drawMode == DrawMode.ColourMap)
         {
+            //method call fot the Drawtexture method passing colour map
             display.DrawTexture(TextureGenerator.TextureFromColourMap(mapData.colourMap, mapChunkSize, mapChunkSize));
         }
         else if (drawMode == DrawMode.Mesh)
         {
+            //method call fot the Drawtexture method passing mesh map
             display.DrawMesh(MeshGenerator.GenerateTerrainMesh(mapData.heightMap, meshHeightMultiplier, meshHeightCurve, levelOfDetail), TextureGenerator.TextureFromColourMap(mapData.colourMap, mapChunkSize, mapChunkSize));
         }
     }
-   
+
+    public void RequestMapData(Action<MapData> callback)
+    {
+        ThreadStart threadStart = delegate
+        {
+            MapDataThread(callback);
+
+        };
+
+        new Thread(threadStart).Start();
+
+    }
+
+    void MapDataThread(Action<MapData> callback)
+    {
+        MapData mapData = generateMapData();
+        //this initialisation is locked because it could be possibly accessed by other threads that are running at the same time
+        lock (mapDataThreadInfoQueue)
+        {
+            mapDataThreadInfoQueue.Enqueue(new MapThreadInfo<MapData>(callback, mapData));
+        }
+    }
+
+    void Update()
+    {
+        if (mapDataThreadInfoQueue.Count > 0)
+        {
+            for(int i = 0; i < mapDataThreadInfoQueue.Count; i++)
+            {
+                MapThreadInfo<MapData> threadInfo = mapDataThreadInfoQueue.Dequeue();
+                threadInfo.callback(threadInfo.parameter);
+            }
+        }
+    }
+
 
 
     MapData generateMapData()
@@ -81,7 +122,22 @@ public class mapGenerator : MonoBehaviour
         {
             octaves = 0;
         }
+
     }
+
+    struct MapThreadInfo<T>
+    {
+        public Action<T> callback;
+        public T parameter;
+
+        public MapThreadInfo(Action<T> callback, T parameter)
+        {
+            this.callback = callback;
+            this.parameter = parameter;
+
+        }
+
+    } 
 
 }
 
@@ -96,6 +152,7 @@ public struct TerrainType
 }
 
 
+//map data structure
 public struct MapData
 {
     public float[,] heightMap;
