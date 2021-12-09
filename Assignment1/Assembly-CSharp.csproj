@@ -56,10 +56,11 @@
     <Compile Include="Assets\Scripts\mapGenerator.cs" />
     <Compile Include="Assets\Scripts\MapDisplay.cs" />
     <Compile Include="Assets\Scripts\MeshGenerator.cs" />
+    <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
     <Compile Include="Assets\Scripts\TextureGenerator.cs" />
     <Compile Include="Assets\Mountain Terrain\Misc\CameraDefault.cs" />
+    <Compile Include="Assets\Scripts\mapGeneratorEditor.cs" />
     <Compile Include="Assets\Scripts\noise.cs" />
-    <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NaturalTilingTextures\External\ShaderForge_NTT_Triplanar.shader" />
