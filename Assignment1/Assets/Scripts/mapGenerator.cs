@@ -32,7 +32,7 @@ public class mapGenerator : MonoBehaviour
     Queue<MapThreadInfo<MeshData>> meshDataThreadInfoQueue = new Queue<MapThreadInfo<MeshData>>();
     public void DrawMapEditor() 
     {
-        MapData mapData = generateMapData();
+        MapData mapData = generateMapData(Vector2.zero);
         MapDisplay display = FindObjectOfType<MapDisplay>();
         if (drawMode == DrawMode.NoiseMap)
         {
@@ -51,11 +51,11 @@ public class mapGenerator : MonoBehaviour
         }
     }
 
-    public void RequestMapData(Action<MapData> callback)
+    public void RequestMapData(Vector2 centre,Action<MapData> callback)
     {
         ThreadStart threadStart = delegate
         {
-            MapDataThread(callback);
+            MapDataThread(centre, callback);
 
         };
 
@@ -63,9 +63,9 @@ public class mapGenerator : MonoBehaviour
 
     }
 
-    void MapDataThread(Action<MapData> callback)
+    void MapDataThread(Vector2 centre, Action<MapData> callback)
     {
-        MapData mapData = generateMapData();
+        MapData mapData = generateMapData(centre);
         //this initialisation is locked because it could be possibly accessed by other threads that are running at the same time
         lock (mapDataThreadInfoQueue)
         {
@@ -114,7 +114,7 @@ public class mapGenerator : MonoBehaviour
             }
         }
     }
-    MapData generateMapData()
+    MapData generateMapData(Vector2 centre)
     {
         float[,] noiseMap = noise.GenerateNoiseMap(mapChunkSize, mapChunkSize, seed, noiseScale, octaves, persistance, lacunarity, offset);
 
