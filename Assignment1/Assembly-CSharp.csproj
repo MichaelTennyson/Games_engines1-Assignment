@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{BEC89A45-9804-02E7-B29F-AC2A648FFAED}</ProjectGuid>
+    <ProjectGuid>{D8B96E9A-E549-63DD-92C6-B687D08CB3CD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,17 +53,12 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\mapGenerator.cs" />
     <Compile Include="Assets\Scripts\MapDisplay.cs" />
-    <Compile Include="Assets\Scripts\MeshGenerator.cs" />
+    <Compile Include="Assets\Scripts\Noise.cs" />
     <Compile Include="Assets\Scripts\EndlessTerrain.cs" />
     <Compile Include="Assets\Scripts\TextureGenerator.cs" />
-    <Compile Include="Assets\Mountain Terrain\Misc\CameraDefault.cs" />
-    <Compile Include="Assets\Scripts\mapGeneratorEditor.cs" />
-    <Compile Include="Assets\Scripts\noise.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\NaturalTilingTextures\External\ShaderForge_NTT_Triplanar.shader" />
+    <Compile Include="Assets\Scripts\MapGenerator.cs" />
+    <Compile Include="Assets\Scripts\MeshGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
