@@ -11,30 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.19f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/customer1/Documents/Assignment1
+C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53001
-Successfully changed project path to: C:/Users/customer1/Documents/Assignment1
-C:/Users/customer1/Documents/Assignment1
+52183
+Successfully changed project path to: C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
+C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1
 Using Asset Import Pipeline V2.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Refreshing native plugins compatible for Editor in 123.83 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 64.93 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/customer1/Documents/Assignment1/Assets
+[Subsystems] Discovering subsystems at path C:/Users/customer1/Documents/Year 4 Semester 1/Games_engines1-Assignment-assignment/Assignment1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -46,402 +35,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002912 seconds.
+Registered in 0.003911 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 70.20 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 58.53 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.619 seconds
+- Completed reload, in  2.405 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1619ms)
-		BeginReloadAssembly (77ms)
+	ReloadAssembly (2405ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (630ms)
-			LoadAssemblies (73ms)
+		EndReloadAssembly (990ms)
+			LoadAssemblies (109ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (221ms)
+			SetupTypeCache (356ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (255ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (390ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (23ms)
-				ProcessInitializeOnLoadAttributes (115ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				RefreshPlugins (59ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (169ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006194 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.577 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1578ms)
-		BeginReloadAssembly (211ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1274ms)
-			LoadAssemblies (130ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (395ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (542ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (134ms)
-				ProcessInitializeOnLoadAttributes (338ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.21 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1983 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 81.7 MB.
-System memory in use after: 81.7 MB.
-
-Unloading 56 unused Assets to reduce memory usage. Loaded Objects now: 2390.
-Total: 8.456200 ms (FindLiveObjects: 0.201300 ms CreateObjectMapping: 0.099700 ms MarkObjects: 8.048200 ms  DeleteObjects: 0.104900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Materials/Mesh Mat (2).mat
-  artifactKey: Guid(d39b266297be013499ba7b3e07e40fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Mesh Mat (2).mat using Guid(d39b266297be013499ba7b3e07e40fa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bb0ebb43813ac7156c29b8bf6ddfd8a') in 0.322058 seconds 
-  Import took 0.347435 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000336 seconds.
-  path: Assets/Materials/Map Mat.mat
-  artifactKey: Guid(8361772db5b074f13a47ece154898939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Map Mat.mat using Guid(8361772db5b074f13a47ece154898939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61575dccd5b47ed60203f82f210dacd0') in 0.047920 seconds 
-  Import took 0.051316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Materials/Mesh Mat.mat
-  artifactKey: Guid(b0872f84cf3c7441d893168677410c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Mesh Mat.mat using Guid(b0872f84cf3c7441d893168677410c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4acc5fc73830030a6b479c190c98cab') in 0.015904 seconds 
-  Import took 0.020268 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Materials/Map Mat (2).mat
-  artifactKey: Guid(bd85b7c18da97124d93a6f7cf2662d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/Map Mat (2).mat using Guid(bd85b7c18da97124d93a6f7cf2662d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e183f03847ced390f9e1874bf55eaa66') in 0.016136 seconds 
-  Import took 0.021225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.088109 seconds.
-  path: Assets/Scripts/EndlessTerrain.cs
-  artifactKey: Guid(16ce6ecc4242344ccb4045ed364cbcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EndlessTerrain.cs using Guid(16ce6ecc4242344ccb4045ed364cbcc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc20b161e8ea8307e8819327915c6f55') in 0.180226 seconds 
-  Import took 0.185881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.897717 seconds.
-  path: Assets/Scripts/EndlessTerrain (2).cs
-  artifactKey: Guid(8e7c7d604e08b954e8550effd67602b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/EndlessTerrain (2).cs using Guid(8e7c7d604e08b954e8550effd67602b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6563a9cdcfd0613dd5316a15308ece53') in 0.010247 seconds 
-  Import took 0.014066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.308708 seconds.
-  path: Assets/Scripts/FalloffGenerator.cs
-  artifactKey: Guid(94ecc0bec425d4c9a94a55c7bc8f1fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/FalloffGenerator.cs using Guid(94ecc0bec425d4c9a94a55c7bc8f1fea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c1818b8961de7a96220f9c2d6152389') in 0.008786 seconds 
-  Import took 0.012879 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.539409 seconds.
-  path: Assets/Scripts/HideOnPlay.cs
-  artifactKey: Guid(7712ca4b498404cc5931aea5ebc20f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/HideOnPlay.cs using Guid(7712ca4b498404cc5931aea5ebc20f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be750de177ddb127d7675920e19c6b5d') in 0.008649 seconds 
-  Import took 0.012760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.482672 seconds.
-  path: Assets/Scripts/MapDisplay (2).cs
-  artifactKey: Guid(a5ab1c0859bf9364597e2bd732333ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MapDisplay (2).cs using Guid(a5ab1c0859bf9364597e2bd732333ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c49803b9ea3ebb3f6e06618c5faa263') in 0.008075 seconds 
-  Import took 0.012939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.338947 seconds.
-  path: Assets/Scripts/MeshGenerator (2).cs
-  artifactKey: Guid(cf5d7974133e0d9459b24bc65f7590ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeshGenerator (2).cs using Guid(cf5d7974133e0d9459b24bc65f7590ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f045718730a5f4870c024d63ce740c') in 0.007970 seconds 
-  Import took 0.012601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.979635 seconds.
-  path: Assets/Scripts/MeshGenerator.cs
-  artifactKey: Guid(7939d15f4beb24a65bc949a0e3c02d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MeshGenerator.cs using Guid(7939d15f4beb24a65bc949a0e3c02d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7535fc084d5fe653b93176ba6a5823') in 0.008292 seconds 
-  Import took 0.071702 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.826804 seconds.
-  path: Assets/Scripts/Noise (2).cs
-  artifactKey: Guid(44cef121cc91c6246bc909669f8a32b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Noise (2).cs using Guid(44cef121cc91c6246bc909669f8a32b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c53bad3c5d573bcf4e9bffa1bdbf03') in 0.007832 seconds 
-  Import took 0.012034 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.871896 seconds.
-  path: Assets/Scripts/TextureGenerator.cs
-  artifactKey: Guid(df7acc444474841759c3b95c7ef6d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TextureGenerator.cs using Guid(df7acc444474841759c3b95c7ef6d1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '368b8ab2af0ec20e73d24d606271d5fd') in 0.008348 seconds 
-  Import took 0.012242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.762681 seconds.
-  path: Assets/Scripts/TextureGenerator (2).cs
-  artifactKey: Guid(cf587381b40bf5a45a91d73a0f60eee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/TextureGenerator (2).cs using Guid(cf587381b40bf5a45a91d73a0f60eee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162777181b6919042acc2f31b1f70536') in 0.008010 seconds 
-  Import took 0.012247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.201248 seconds.
-  path: Assets/Scripts/MapGenerator.cs
-  artifactKey: Guid(916b4f4143ed7456294aa19afa97bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MapGenerator.cs using Guid(916b4f4143ed7456294aa19afa97bde8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d36abacc6f01f3b9942de83cfba8d5d') in 0.008238 seconds 
-  Import took 0.012048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.225470 seconds.
-  path: Assets/Scripts/MapGenerator (2).cs
-  artifactKey: Guid(63e90920fda3f9744be6a356aa84a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MapGenerator (2).cs using Guid(63e90920fda3f9744be6a356aa84a1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61077ef70070981e396721eac56f11a7') in 0.009463 seconds 
-  Import took 0.013235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.632751 seconds.
-  path: Assets/Scripts/MapDisplay.cs
-  artifactKey: Guid(4aeb0f3a8e031433495f2ddd66acbef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MapDisplay.cs using Guid(4aeb0f3a8e031433495f2ddd66acbef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad8899e6cb47be47ed818ae6eb4cbe7f') in 0.008667 seconds 
-  Import took 0.012607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 41.447795 seconds.
-  path: Assets/Scenes/Scene (2).unity
-  artifactKey: Guid(492bde4f2cba9774fa1c74be83f0c82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene (2).unity using Guid(492bde4f2cba9774fa1c74be83f0c82f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75989002cbe63455df0832ef0ee85dcd') in 0.009962 seconds 
-  Import took 0.013846 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.533611 seconds.
-  path: Assets/Editor/MapGeneratorEditor.cs
-  artifactKey: Guid(36580b8c831d94d3392f333a33b58f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MapGeneratorEditor.cs using Guid(36580b8c831d94d3392f333a33b58f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73743c3f65612fbd756f5253923d4409') in 0.009394 seconds 
-  Import took 0.014571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.893966 seconds.
-  path: Assets/Editor/MapGeneratorEditor (2).cs
-  artifactKey: Guid(8d271e09f0db2b5478dae091879be89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Editor/MapGeneratorEditor (2).cs using Guid(8d271e09f0db2b5478dae091879be89e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9875961d74665ecf0adddd558bb858a') in 0.009068 seconds 
-  Import took 0.013076 seconds .
-
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Registering precompiled user dll's ...
-Registered in 0.006935 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.654 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1655ms)
-		BeginReloadAssembly (155ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1366ms)
-			LoadAssemblies (212ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (415ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (513ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1970 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.4 MB.
-System memory in use after: 84.6 MB.
-
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2432.
-Total: 8.162300 ms (FindLiveObjects: 0.204500 ms CreateObjectMapping: 0.093300 ms MarkObjects: 7.828500 ms  DeleteObjects: 0.034400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Cannot set VR devices because the platform passed isn't supported by Unity.
-Registering precompiled user dll's ...
-Registered in 0.005877 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.706 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1707ms)
-		BeginReloadAssembly (164ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (1441ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (399ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (70ms)
-			SetupLoadedEditorAssemblies (665ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (142ms)
-				ProcessInitializeOnLoadAttributes (325ms)
-				ProcessInitializeOnLoadMethodAttributes (171ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1970 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 84.5 MB.
-System memory in use after: 84.6 MB.
-
-Unloading 47 unused Assets to reduce memory usage. Loaded Objects now: 2434.
-Total: 8.046500 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.156300 ms MarkObjects: 7.603800 ms  DeleteObjects: 0.033200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.008165 seconds.
