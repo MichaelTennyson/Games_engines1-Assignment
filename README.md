@@ -54,13 +54,13 @@ public void DrawMapInEditor() {
 		MapData mapData = GenerateMapData (Vector2.zero);
 		MapDisplay display = FindObjectOfType<MapDisplay> ();
 		if (drawMode == DrawMode.NoiseMap) {
-display.DrawTexture (TextureGenerator.TextureFromHeightMap (mapData.heightMap));
+			display.DrawTexture (TextureGenerator.TextureFromHeightMap (mapData.heightMap));
 		} 
 	else if (drawMode == DrawMode.ColourMap) {
-display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
+			display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
 		} 
 	else if (drawMode == DrawMode.Mesh) {
-		display.DrawMesh (MeshGenerator.GenerateTerrainMesh (mapData.heightMap, meshHeightMultiplier, meshHeightCurve, editorPreviewLOD), TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
+			display.DrawMesh (MeshGenerator.GenerateTerrainMesh (mapData.heightMap, meshHeightMultiplier, meshHeightCurve, editorPreviewLOD), 		TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
 		} 
 	else if (drawMode == DrawMode.FalloffMap) {
 				display.DrawTexture(TextureGenerator.TextureFromHeightMap(FalloffGenerator.Gene rateFalloffMap(mapChunkSize)));
