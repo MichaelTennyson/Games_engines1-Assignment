@@ -129,5 +129,5 @@ Here a screenshot from the game
  ![image](https://user-images.githubusercontent.com/55544189/146186054-58357435-e21a-46b3-b845-34c9d8582838.png)
 
  
-This is a youtube video:
+Here a Yuotube vidoe of the environment being explored in action
 https://youtu.be/nrj9IoIdDIk
