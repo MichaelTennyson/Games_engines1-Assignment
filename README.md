@@ -55,11 +55,14 @@ public void DrawMapInEditor() {
 		MapDisplay display = FindObjectOfType<MapDisplay> ();
 		if (drawMode == DrawMode.NoiseMap) {
 display.DrawTexture (TextureGenerator.TextureFromHeightMap (mapData.heightMap));
-		} else if (drawMode == DrawMode.ColourMap) {
+		} 
+	else if (drawMode == DrawMode.ColourMap) {
 display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
-		} else if (drawMode == DrawMode.Mesh) {
+		} 
+	else if (drawMode == DrawMode.Mesh) {
 		display.DrawMesh (MeshGenerator.GenerateTerrainMesh (mapData.heightMap, meshHeightMultiplier, meshHeightCurve, editorPreviewLOD), TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
-		} else if (drawMode == DrawMode.FalloffMap) {
+		} 
+	else if (drawMode == DrawMode.FalloffMap) {
 				display.DrawTexture(TextureGenerator.TextureFromHeightMap(FalloffGenerator.Gene rateFalloffMap(mapChunkSize)));
 		}
 	}
@@ -98,7 +101,6 @@ public void UpdateTerrainChunk() {
 							break;
 						}
 					}
-	
 					if (lodIndex != previousLODIndex) {
 						LODMesh lodMesh = lodMeshes [lodIndex];
 						if (lodMesh.hasMesh) {
