@@ -129,5 +129,5 @@ Here a screenshot from the game
  ![image](https://user-images.githubusercontent.com/55544189/146186054-58357435-e21a-46b3-b845-34c9d8582838.png)
 
  
-Here a Yuotube vidoe of the environment being explored in action
+Here a YouTube vidoe of the environment being explored in action. Here, I am showing the mountains and the range of view in the environment.
 https://youtu.be/nrj9IoIdDIk
