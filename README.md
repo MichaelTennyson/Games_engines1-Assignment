@@ -13,31 +13,34 @@ The project has multiple classes that help to generate the environment. First, t
 
  
 The map GeneratorEditor script is a basic script that tallies whether the generate button has been clicked, the map will be drawn in the unity editor 
-Class/asset	Source
+Code Source:
+Self written
+Class/asset	
 Noise.cs,
 MeshGenerator.cs,
 Mapdisplay.cs
 MapGeneratorEditor.
 TextureGenerator.cs
-
 Cloud.cs
-	Self written
+
+Modified from
+https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
+	
 EndlessTerrain.cs
 MapGenerator.cs
 
-	Modified from
- https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
+From
+https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
 HideOnplay.cs
 FalloffGenerator.cs
 MouseLook.cs
 RigidBody First person Controller.cs
-	From
-https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
+	
+Sources used
 https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
 https://www.youtube.com/watch?v=64NblGkAabk&t=74s
 https://www.youtube.com/watch?v=eJEpeUH1EMg&t=301s
 https://www.youtube.com/watch?v=bG0uEXV6aHQ
-
 https://www.youtube.com/watch?v=vFvwyu_ZKfU
 
 What I am most proud of in the assignment?
