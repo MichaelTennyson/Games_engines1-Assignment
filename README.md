@@ -50,22 +50,24 @@ C18302166 - Michael Tennyson. For this assignment, I will create a Project what 
 Sample code from Map Generator Script showing the DrawMapInEditor script and requestmapdata
 This is code:
 
-public void DrawMapInEditor() {
-		MapData mapData = GenerateMapData (Vector2.zero);
-		MapDisplay display = FindObjectOfType<MapDisplay> ();
-		if (drawMode == DrawMode.NoiseMap) {
-			display.DrawTexture (TextureGenerator.TextureFromHeightMap (mapData.heightMap));
-		} 
-	else if (drawMode == DrawMode.ColourMap) {
-			display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
-		} 
-	else if (drawMode == DrawMode.Mesh) {
-			display.DrawMesh (MeshGenerator.GenerateTerrainMesh (mapData.heightMap, meshHeightMultiplier, meshHeightCurve, editorPreviewLOD),TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
-		} 
-	else if (drawMode == DrawMode.FalloffMap) {
-				display.DrawTexture(TextureGenerator.TextureFromHeightMap(FalloffGenerator.Gene rateFalloffMap(mapChunkSize)));
-		}
-}
+
+	public void DrawMapInEditor() {
+			MapData mapData = GenerateMapData (Vector2.zero);
+			MapDisplay display = FindObjectOfType<MapDisplay> ();
+			if (drawMode == DrawMode.NoiseMap) {
+				display.DrawTexture (TextureGenerator.TextureFromHeightMap (mapData.heightMap));
+			} 
+		else if (drawMode == DrawMode.ColourMap) {
+				display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
+			} 
+		else if (drawMode == DrawMode.Mesh) {
+				display.DrawMesh (MeshGenerator.GenerateTerrainMesh (mapData.heightMap, meshHeightMultiplier, meshHeightCurve, editorPreviewLOD),TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
+			} 
+		else if (drawMode == DrawMode.FalloffMap) {
+					display.DrawTexture(TextureGenerator.TextureFromHeightMap(FalloffGenerator.Gene rateFalloffMap(mapChunkSize)));
+			}
+	}
+	
 	
 	public void RequestMapData(Vector2 centre, Action<MapData> callback) {
 		ThreadStart threadStart = delegate {
@@ -77,53 +79,53 @@ public void DrawMapInEditor() {
 	
 Here is an example of code from the MapDispaly Script:
 	
-public void DrawTexture(Texture2D texture) {
-		textureRender.sharedMaterial.mainTexture = texture;
-		textureRender.transform.localScale = new Vector3 (texture.width, 1, texture.height);
-	}
+	public void DrawTexture(Texture2D texture) {
+			textureRender.sharedMaterial.mainTexture = texture;
+			textureRender.transform.localScale = new Vector3 (texture.width, 1, texture.height);
+		}
 	
 	public void DrawMesh(MeshData meshData, Texture2D texture) {
 		meshFilter.sharedMesh = meshData.CreateMesh ();
 		meshRenderer.sharedMaterial.mainTexture = texture;
-	}
+	        }
 
 Here is an example of the endless terrain “UpdateTerrainChunk“ method
 
-public void UpdateTerrainChunk() {
-			if (mapDataReceived) {
-				float viewerDstFromNearestEdge = Mathf.Sqrt(bounds.SqrDistance (viewerPosition));
-				bool visible = viewerDstFromNearestEdge <= maxViewDst;
-				if (visible) {
-					int lodIndex = 0;
-					for (int i = 0; i < detailLevels.Length - 1; i++) {
-						if (viewerDstFromNearestEdge > detailLevels [i].visibleDstThreshold) {
-							lodIndex = i + 1;
-						} else {
-							break;
+	public void UpdateTerrainChunk() {
+				if (mapDataReceived) {
+					float viewerDstFromNearestEdge = Mathf.Sqrt(bounds.SqrDistance (viewerPosition));
+					bool visible = viewerDstFromNearestEdge <= maxViewDst;
+					if (visible) {
+						int lodIndex = 0;
+						for (int i = 0; i < detailLevels.Length - 1; i++) {
+							if (viewerDstFromNearestEdge > detailLevels [i].visibleDstThreshold) {
+								lodIndex = i + 1;
+							} else {
+								break;
+							}
 						}
-					}
-					if (lodIndex != previousLODIndex) {
-						LODMesh lodMesh = lodMeshes [lodIndex];
-						if (lodMesh.hasMesh) {
-							previousLODIndex = lodIndex;
-							meshFilter.mesh = lodMesh.mesh;
-						} else if (!lodMesh.hasRequestedMesh) {
-							lodMesh.RequestMesh (mapData);
+						if (lodIndex != previousLODIndex) {
+							LODMesh lodMesh = lodMeshes [lodIndex];
+							if (lodMesh.hasMesh) {
+								previousLODIndex = lodIndex;
+								meshFilter.mesh = lodMesh.mesh;
+							} else if (!lodMesh.hasRequestedMesh) {
+								lodMesh.RequestMesh (mapData);
+							}
 						}
-					}
-	
-					if (lodIndex == 0) {
-						if (collisionLODMesh.hasMesh) {
-							meshCollider.sharedMesh = collisionLODMesh.mesh;
-						} else if (!collisionLODMesh.hasRequestedMesh) {
-							collisionLODMesh.RequestMesh (mapData);
+
+						if (lodIndex == 0) {
+							if (collisionLODMesh.hasMesh) {
+								meshCollider.sharedMesh = collisionLODMesh.mesh;
+							} else if (!collisionLODMesh.hasRequestedMesh) {
+								collisionLODMesh.RequestMesh (mapData);
+							}
 						}
+						terrainChunksVisibleLastUpdate.Add (this);
 					}
-					terrainChunksVisibleLastUpdate.Add (this);
+					SetVisible (visible);
 				}
-				SetVisible (visible);
-			}
-}
+	}
 
 
 
