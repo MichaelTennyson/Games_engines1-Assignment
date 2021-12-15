@@ -60,12 +60,12 @@ public void DrawMapInEditor() {
 			display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
 		} 
 	else if (drawMode == DrawMode.Mesh) {
-			display.DrawMesh (MeshGenerator.GenerateTerrainMesh (mapData.heightMap, meshHeightMultiplier, meshHeightCurve, editorPreviewLOD), 		TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
+			display.DrawMesh (MeshGenerator.GenerateTerrainMesh (mapData.heightMap, meshHeightMultiplier, meshHeightCurve, editorPreviewLOD),TextureGenerator.TextureFromColourMap (mapData.colourMap, mapChunkSize, mapChunkSize));
 		} 
 	else if (drawMode == DrawMode.FalloffMap) {
 				display.DrawTexture(TextureGenerator.TextureFromHeightMap(FalloffGenerator.Gene rateFalloffMap(mapChunkSize)));
 		}
-	}
+}
 	
 	public void RequestMapData(Vector2 centre, Action<MapData> callback) {
 		ThreadStart threadStart = delegate {
@@ -74,6 +74,7 @@ public void DrawMapInEditor() {
 
 		new Thread (threadStart).Start ();
 	}
+	
 Here is an example of code from the MapDispaly Script:
 	
 public void DrawTexture(Texture2D texture) {
