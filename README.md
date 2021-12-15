@@ -63,6 +63,7 @@ display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, m
 				display.DrawTexture(TextureGenerator.TextureFromHeightMap(FalloffGenerator.Gene rateFalloffMap(mapChunkSize)));
 		}
 	}
+	
 	public void RequestMapData(Vector2 centre, Action<MapData> callback) {
 		ThreadStart threadStart = delegate {
 			MapDataThread (centre, callback);
@@ -76,6 +77,7 @@ public void DrawTexture(Texture2D texture) {
 		textureRender.sharedMaterial.mainTexture = texture;
 		textureRender.transform.localScale = new Vector3 (texture.width, 1, texture.height);
 	}
+	
 	public void DrawMesh(MeshData meshData, Texture2D texture) {
 		meshFilter.sharedMesh = meshData.CreateMesh ();
 		meshRenderer.sharedMaterial.mainTexture = texture;
@@ -96,6 +98,7 @@ public void UpdateTerrainChunk() {
 							break;
 						}
 					}
+	
 					if (lodIndex != previousLODIndex) {
 						LODMesh lodMesh = lodMeshes [lodIndex];
 						if (lodMesh.hasMesh) {
@@ -105,6 +108,7 @@ public void UpdateTerrainChunk() {
 							lodMesh.RequestMesh (mapData);
 						}
 					}
+	
 					if (lodIndex == 0) {
 						if (collisionLODMesh.hasMesh) {
 							meshCollider.sharedMesh = collisionLODMesh.mesh;
