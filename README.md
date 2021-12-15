@@ -49,9 +49,9 @@ First proposal
 C18302166 - Michael Tennyson. For this assignment, I will create a Project what will allow one to generate procedural environment that can be explored. This environment Can be any sort of environment. e.g. Islands or mountains.
 Sample code from Map Generator Script showing the DrawMapInEditor script and requestmapdata
 This is code:
+
 public void DrawMapInEditor() {
 		MapData mapData = GenerateMapData (Vector2.zero);
-
 		MapDisplay display = FindObjectOfType<MapDisplay> ();
 		if (drawMode == DrawMode.NoiseMap) {
 display.DrawTexture (TextureGenerator.TextureFromHeightMap (mapData.heightMap));
@@ -63,7 +63,6 @@ display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, m
 				display.DrawTexture(TextureGenerator.TextureFromHeightMap(FalloffGenerator.Gene rateFalloffMap(mapChunkSize)));
 		}
 	}
-
 	public void RequestMapData(Vector2 centre, Action<MapData> callback) {
 		ThreadStart threadStart = delegate {
 			MapDataThread (centre, callback);
@@ -72,11 +71,11 @@ display.DrawTexture (TextureGenerator.TextureFromColourMap (mapData.colourMap, m
 		new Thread (threadStart).Start ();
 	}
 Here is an example of code from the MapDispaly Script:
+	
 public void DrawTexture(Texture2D texture) {
 		textureRender.sharedMaterial.mainTexture = texture;
 		textureRender.transform.localScale = new Vector3 (texture.width, 1, texture.height);
 	}
-
 	public void DrawMesh(MeshData meshData, Texture2D texture) {
 		meshFilter.sharedMesh = meshData.CreateMesh ();
 		meshRenderer.sharedMaterial.mainTexture = texture;
@@ -88,10 +87,8 @@ public void UpdateTerrainChunk() {
 			if (mapDataReceived) {
 				float viewerDstFromNearestEdge = Mathf.Sqrt(bounds.SqrDistance (viewerPosition));
 				bool visible = viewerDstFromNearestEdge <= maxViewDst;
-
 				if (visible) {
 					int lodIndex = 0;
-
 					for (int i = 0; i < detailLevels.Length - 1; i++) {
 						if (viewerDstFromNearestEdge > detailLevels [i].visibleDstThreshold) {
 							lodIndex = i + 1;
@@ -99,7 +96,6 @@ public void UpdateTerrainChunk() {
 							break;
 						}
 					}
-
 					if (lodIndex != previousLODIndex) {
 						LODMesh lodMesh = lodMeshes [lodIndex];
 						if (lodMesh.hasMesh) {
@@ -109,7 +105,6 @@ public void UpdateTerrainChunk() {
 							lodMesh.RequestMesh (mapData);
 						}
 					}
-
 					if (lodIndex == 0) {
 						if (collisionLODMesh.hasMesh) {
 							meshCollider.sharedMesh = collisionLODMesh.mesh;
@@ -117,10 +112,8 @@ public void UpdateTerrainChunk() {
 							collisionLODMesh.RequestMesh (mapData);
 						}
 					}
-
 					terrainChunksVisibleLastUpdate.Add (this);
 				}
-
 				SetVisible (visible);
 			}
 		}
