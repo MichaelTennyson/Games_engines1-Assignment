@@ -123,7 +123,7 @@ public void UpdateTerrainChunk() {
 				}
 				SetVisible (visible);
 			}
-		}
+}
 
 
 
