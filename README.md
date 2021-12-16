@@ -16,7 +16,6 @@ The map GeneratorEditor script is a basic script that tallies whether the genera
 Code Source:
 Self written
 Class/asset	
-Noise.cs,
 MeshGenerator.cs,
 Mapdisplay.cs
 MapGeneratorEditor.
@@ -28,9 +27,11 @@ https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZB
 	
 EndlessTerrain.cs
 MapGenerator.cs
+Noise.cs
 
 From
 https://www.youtube.com/watch?v=wbpMiKiSKm8&list=PLFt_AvWsXl0eBW2EiBtl_sxmDtSgZBxB3
+
 HideOnplay.cs
 FalloffGenerator.cs
 MouseLook.cs
